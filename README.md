@@ -1,2 +1,2 @@
 # weblab-selfedu
-self education. weblab course from MIT
+Self education. weblab course from MIT
