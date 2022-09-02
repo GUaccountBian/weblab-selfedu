@@ -1,10 +1,81 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
 
-.u-textCenter{
+:root {
+    --primary: #396dff;
+    --grey: #f7f7f7;
+    --white: #fff;
+    --m1: #ee9ca7;
+    --m2: #1e88a8;
+    --m3: #e98b2a;
+    --m4: #ff8000;
+    --m5: #d9b8f1;
+    --m6: #b8f1cc;
+    --m7: #b8f1ed;
+
+    --xs: 4px;
+    --s: 8px;
+    --m: 16px;
+    --l: 24px;
+}
+
+.u-textCenter {
     text-align: center;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.navTitle {
+    color: var(--m1);
+    font-size: 20px;
+    /* Below cancels out some of the default styling */
+    margin: 0;
+    font-weight: normal;
+}
+
+.navContainer {
+    padding: var(--s) var(--m);
+    background-color: var(--m7);
+}
+
+img.avatar {
+    max-width: 100%;
+    border-radius: var(--m);
+}
+
+.avatarContainer {
+    padding: 0 35%;
+}
+
+.avatar {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+
+    padding-top: 100%;
+
+    border-radius: 50%;
+
+    background-image: url(images/qingzi.png);
+
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    margin: 0 auto;
+}
+
+.u-flex {
+    display: flex;
+}
+
+.subContainer {
+    flex-grow: 1;
+    flex-basis: 0;
 }
