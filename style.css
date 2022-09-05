@@ -107,11 +107,11 @@ li a:hover {
 
 .avatar {
     max-width: 100%;
-    width: 100%;
+    width: 40%;
     height: auto;
     display: block;
 
-    padding-top: 100%;
+    padding-top: 40%;
 
     border-radius: 50%;
 
