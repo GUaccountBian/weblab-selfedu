@@ -24,7 +24,7 @@
 }
 
 .u-textCenter {
-    text-align: left;
+    text-align: center;
 }
 
 .u-textLeft {
@@ -198,4 +198,8 @@ li a:hover {
     max-width: 100%;
     width: 100%;
     height: auto;
+}
+
+.contactInfo {
+    padding-left: 5%;
 }
