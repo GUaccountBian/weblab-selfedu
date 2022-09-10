@@ -19,8 +19,16 @@
     --l: 24px;
 }
 
-.u-textCenter {
+.name {
     text-align: center;
+}
+
+.u-textCenter {
+    text-align: left;
+}
+
+.u-textLeft {
+    text-align: left;
 }
 
 body {
@@ -80,6 +88,7 @@ img.avatar {
     display: block;
     flex-wrap: nowrap;
     text-align: center;
+    border-radius: 2%;
 }
 
 li a {
@@ -126,11 +135,67 @@ li a:hover {
     margin: 0 auto;
 }
 
-.u-flex {
-    display: flex;
+.avatarContainer-introduction {
+    padding: 10% 40%;
 }
 
-.subContainer {
+.avatar-introduction {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+
+    padding-top: 100%;
+
+    border-radius: 50%;
+
+    background-image: url(images/qingzi.png);
+
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    margin: 0 auto;
+}
+
+.u-flex {
+    display: flex;
+    gap: 10px 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.subContainer1 {
+    flex-grow: 2;
+    flex-basis: 0;
+}
+
+.subContainer2 {
+    flex-grow: 3;
+    flex-basis: 0;
+}
+
+.u-flex-introduction {
+  display: flex;  
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.subContainer1-introduction {
     flex-grow: 1;
     flex-basis: 0;
+}
+
+.subContainer2-introduction {
+    flex-grow: 2;
+    flex-basis: 0;
+}
+
+.selfie {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
