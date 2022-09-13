@@ -1,0 +1,59 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Yihan Bian's website
+        </title>
+        <link rel="stylesheet" href="../style.css" />
+        </head>
+    <body>
+        <nav class="navContainer">
+            <h1 class="navTitle"> ANLY501 </h1>
+            <ul class="menu">
+                <li class="item" id="nav-home"><a href="../index.html">About me</a></li>
+                <li class="item hassubmenu dropdown">
+                    <a tabindex="0">ANLY501</a>
+                    <div class="dropdown-content item">
+                        <a href="https://github.com/GUaccountBian">Code</a>
+                        <a href="../Data">Data</a>
+                        <a href="introduction.html">Introduction</a>
+                        <a href="data_gathering.html">Data Gathering</a>
+                        <a href="index.html">Data cleaning</a>
+                        <a href="index.html">Exploring Data</a>
+                        <a href="index.html">Naive Bayes</a>
+                        <a href="index.html">Decision Trees</a>
+                        <a href="index.html">SVM</a>
+                        <a href="index.html">Clustering</a>
+                        <a href="index.html">ARM and Networking</a>
+                        <a href="index.html">Conclusions</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="u-flex-introduction">
+            <section class="subContainer1-introduction">
+                <div class="avatarContainer-introduction">
+                    <div class="avatar-introduction"></div>
+                </div>
+                <div class="dataDescription">
+                    <h3>
+                        You can click <a href="../Data">here</a> to have an access to those data listed on the right or you can go to the navigation bar to click the "Data" tab.
+                    </h3>
+                </div>
+            </section>
+            <section class="subContainer2-introduction">
+                <h2 class="u-textCenter">Trend of a tech term from Google</h2>
+                <p>Source: <a href="https://trends.google.com/trends/?geo=US">Google Trend</a></p>
+                <p>Purpose: These data can be used to judge when a word come into the public view and when that word become popular. These data shows the normal people search frequency on google when they trying to find somthing about that word on the Internet.</p>
+                <h3>Example:</h3>
+                <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3045_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"Bitcoin","geo":"US","time":"2004-01-01 2022-09-12"}],"category":0,"property":""}, {"exploreQuery":"date=all&geo=US&q=Bitcoin","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+                <h2 class="u-textCenter">Data from social media API</h2>
+                <p>Source: Twitter, Reddit, ...</p>
+                <p>Purpose: These data is gathering from social platform where people chat and express their opinion about something. For each word that I am going to research, we try to get those posts or tweets or chats which was taking about that word. And then applying sentiment analysis on these mostly text format data to judge the emotion of those people who write the text. And if this works, we can get people's attitude towards that word in a period of time.</p>
+                <h2 class="u-textCenter">Stock prices</h2>
+                <p>Source: Yahoo</p>
+                <p>Purpose: These data is the stock prices of some big tech companies, which is exactly what we want to research. We will use these data to find a relationship between the stock prices and people's attitude towards those tech terms raised by these companies. If it goes well, we will first get the result about attitude on previous analysis and then we will use this result combing with this data to finally find that relationship that I am curious about. Finally, we can find the pattern and can predict what gonna happen if a company invent a new tech word in the future.</p>
+            </section>
+        </div>
+    </body>
+</html>

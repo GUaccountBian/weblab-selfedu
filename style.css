@@ -47,6 +47,9 @@ body {
 
 .navContainer {
     padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 img.avatar {
@@ -111,7 +114,9 @@ li a:hover {
 }
 
 .avatarContainer {
-    padding: 0 35%;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 15%;
 }
 
 .avatar {
@@ -179,6 +184,7 @@ li a:hover {
 
 .u-flex-introduction {
   display: flex;  
+  padding-top: 15%;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -202,4 +208,12 @@ li a:hover {
 
 .contactInfo {
     padding-left: 5%;
+}
+
+.questions {
+    padding-left: 10%;
+}
+
+.dataDescription {
+    padding: 8%;
 }
